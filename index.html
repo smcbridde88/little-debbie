@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Debbie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      nav {
+        background-color: rgb(102, 138, 218);
+        color: antiquewhite;
+      }
+
+      body {
+        background-color: rgb(206, 198, 198);
+      }
+
+      .nav-link {
+        color: bisque;
+      }
+
+      .navbar-brand {
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mx-4" href="#">Little Debbie</a>
+
+        <!-- Collapse button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#basicExampleNav"
+          aria-controls="basicExampleNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bakery Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown</a
+              >
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Links -->
+
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+            </div>
+          </form>
+        </div>
+        <!-- Collapsible content -->
+      </nav>
+      <!--/.Navbar-->
+      <div class="row">
+        <div class="col offset-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE7EoBqUwjzenWV5r64F-HpkhUZMoMNXXarw&usqp=CAU" class="img-fluid p-auto my-4 img-thumbnail" alt="Zebra Cake">
+
+
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsam voluptatem deleniti eius quos obcaecati
+            earum sit, atque aliquam esse rem quasi in soluta distinctio odit mollitia est corrupti alias!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsam voluptatem deleniti eius quos obcaecati
+            earum sit, atque aliquam esse rem quasi in soluta distinctio odit mollitia est corrupti alias!
+          </p>
+        </div>
+        <div class="col">
+          <ul>
+            <li>Honey Buns</li>
+            <li>Fudge Rounds</li>
+            <li>Swill Rolls</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
